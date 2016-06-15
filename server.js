@@ -1,5 +1,4 @@
 var express = require('express');
-// var mongoose= require('mongoose');
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var bcrypt = require('bcrypt');
@@ -9,8 +8,6 @@ var port = 5000;
 var corsOptions = {
   origin: 'http://localhost:' + port
 };
-
-
 
 app.use(bodyParser.json());
 app.use(express.static('./public'));
