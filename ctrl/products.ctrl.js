@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var Product = require('./products.module.js');
+var Product = require('../modules/products.module.js');
+var cartSchema = require('../modules/cart.module.js');
 
 mongoose.set('debug', true);
 mongoose.connect('mongodb://localhost/ecommerce');

@@ -1,2 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Economica:400,400i,700,700i|Scope+One';
 h1 {
+  font-family: "Scope One", serif;
   color: green; }
+
+p {
+  font-family: "Economica", sans-serif; }
